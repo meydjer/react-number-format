@@ -388,7 +388,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	      });
 
 	      var inputProps = _extends({}, props, {
-	        type: 'text',
+	        type: 'number',
 	        value: this.state.value,
 	        onChange: this.onChange,
 	        onKeyDown: this.onKeyDown
