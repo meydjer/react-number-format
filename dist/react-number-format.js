@@ -93,7 +93,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	  thousandSeparator: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.bool]),
 	  decimalSeparator: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.bool]),
 	  decimalPrecision: _react.PropTypes.oneOfType([_react.PropTypes.number, _react.PropTypes.bool]),
-	  displayType: _react.PropTypes.oneOf(['input', 'text']),
+	  displayType: _react.PropTypes.oneOf(['input', 'text', 'number']),
 	  prefix: _react.PropTypes.string,
 	  suffix: _react.PropTypes.string,
 	  format: _react.PropTypes.oneOfType([_react.PropTypes.string, _react.PropTypes.func]),
