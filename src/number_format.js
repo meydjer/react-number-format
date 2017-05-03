@@ -258,7 +258,7 @@ class NumberFormat extends React.Component {
     });
 
     const inputProps = Object.assign({}, props, {
-      type:'text',
+      type:'number',
       value:this.state.value,
       onChange:this.onChange,
       onKeyDown:this.onKeyDown,
