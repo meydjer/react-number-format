@@ -9,7 +9,7 @@ const propTypes = {
   thousandSeparator: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   decimalSeparator: PropTypes.oneOfType([PropTypes.string, PropTypes.bool]),
   decimalPrecision: PropTypes.oneOfType([PropTypes.number, PropTypes.bool]),
-  displayType: PropTypes.oneOf(['input', 'text']),
+  displayType: PropTypes.oneOf(['input', 'text', 'number']),
   prefix: PropTypes.string,
   suffix: PropTypes.string,
   format: PropTypes.oneOfType([
